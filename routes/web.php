@@ -25,4 +25,3 @@ Route::get('/testParameters', [TestParameterController::class, 'testParameters']
 Route::get('/geospatialInsights', [GeospatialInsightsController::class, 'geospatialInsights'])->name('geospatialInsights');
 Route::get('/nodeWiseInsight', [NodeWiseInsightsController::class, 'nodeWiseInsights'])->name('nodeWiseInsight');
 Route::get('/preExistingCondition', [PreExistingConditionsController::class, 'preExistingConditions'])->name('preExistingCondition');
-
